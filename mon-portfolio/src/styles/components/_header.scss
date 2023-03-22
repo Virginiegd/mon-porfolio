@@ -1,4 +1,8 @@
-.nav_ul {
+.nav__ul {
     display: flex;
-    
+    justify-content: flex-end;
+}
+
+.nav__a {
+    padding: 10px;
 }

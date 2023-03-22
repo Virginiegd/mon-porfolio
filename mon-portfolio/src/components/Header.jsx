@@ -10,7 +10,7 @@ function Header() {
             <div>
                 <div>
                     <nav>
-                        <ul className="nav_ul">
+                        <ul className="nav__ul">
                             <li><NavLink className='nav__a' to="/" style={({ isActive }) =>
                                 isActive ? activeStyle : undefined} > Home </NavLink></li>
                             <li><NavLink className='nav__a' to="/about" style={({ isActive }) =>
