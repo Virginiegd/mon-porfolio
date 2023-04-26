@@ -1,16 +1,35 @@
+import { Link } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+
 function Openclassrooms() {
+    const [projectList, setProjectList] = useState([])
+
+    useEffect(() => {
+        fetch(`openclassrooms.json`)
+            .then((res)=> res.json())
+            .then((data) => {
+                console.log(data)
+                setProjectList(data)
+            })
+    }, []);
+
     return (
     <div>
         <h1>Mes projets</h1>
         <h2>Openclassrooms</h2>
-        <ul>
-            <li>P2 : Booki</li>
-            <li>P3 : Ohmyfood</li>
-            <li>P4 : La Panthère</li>
-            <li>P5 : Kanap</li>
-            <li>P6 : Sauce Piiquantes</li>
-            <li>P7 : Kasa</li>
-        </ul>
+        <section>
+            <div>
+                <ul>
+                    {projectList.map((project) => (
+                        <li key={project.id}>
+                            <Link to={project.url}><img src={project.picture} alt={project.project} title='Cliquez ici pour voir le site'/></Link>
+                            <h3>{project.title}</h3>
+                            <p>{project.description}</p>
+                        </li>
+                    )) }
+                </ul>
+            </div>
+        </section>
     </div>
     )
 }

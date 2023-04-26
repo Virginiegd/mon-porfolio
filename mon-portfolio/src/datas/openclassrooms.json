@@ -6,7 +6,9 @@
         "compétences": [
             "1. Implémenter une interface responsive",
             "2. Intégrer du contenu conformément à une maquette"
-        ]
+        ],
+        "url": "https://virginiegd.github.io/booki/",
+        "picture": "https://photos.onedrive.com/photo/DBB3028AC9604EE7!7490?view=all"
     },
 
     {
@@ -19,54 +21,10 @@
             "3. Mettre en place son environnement Front-End",
             "4. Mettre en place une structure de navigation pour un site web",
             "5. Utiliser un système de gestion de versions pour le suivi du projet et son hébergement"
-        ]
-    },
-
-    {
-        "id": "3",
-        "title": "P4 : Optimisez une site web existant",
-        "description": "Faites passer le site web de votre entreprise en tête des résultats Google grâce à la mise en place de bonnes pratiques SEO.",
-        "compétences": [
-            "1. Réaliser une recherche des bonnes pratiques en développement web",
-            "2. Optimiser la taille et la vitesse d’un site web",
-            "3. Écrire un code HTML et CSS maintenable",
-            "4. Optimiser le référencement d'un site web",
-            "5. Assurer l'accessibilité d'un site web"
-        ]
-    },
-
-    {
-        "id": "4",
-        "title": "P5 : Construisez un site e-commerce en Javascript",
-        "description": "Intégrez de manière dynamique les maquettes du site de Kanap avec Javascript. Vous utiliserez l'API pour récupérer les produits et leurs détails, et vous gérerez l'ajout des produits au panier.",
-        "compétences": [
-            "1. Gérer des événements JavaScript",
-            "2. Interagir avec un web service avec JavaScript",
-            "3. Valider des données issues de sources externes",
-            "4. Créer un plan de test pour une application"
-        ]
-    },
-
-    {
-        "id": "5",
-        "title": "Construisez une API sécurisée pour une application d'avis gastronomiques",
-        "description": "Créez le backend et l'API d'une application d'avis gastronomiques de sauces piquantes. Utilisez les technologies Node.js, Express et MongoDB pour construire la base de données NoSQL. Sécurisez les données grâce aux normes de l'OWASP.",
-        "compétences": [
-            "1. Mettre en œuvre des opérations CRUD de manière sécurisée",
-            "2. Stocker des données de manière sécurisée",
-            "3. Implémenter un modèle logique de données conformément à la réglementation"
-
-        ]
-    },
-
-    {
-        "id": "6",
-        "title": "Créez une application web de location immobilière avec React",
-        "description": "Implémentez le front end de Kasa, une application de location de logements. Mettez en place des composants avec React et les routes de l'application avec React Router.",
-        "compétences": [
-            "1. Initialiser une application avec Create React App",
-            "2. Configurer la navigation entre les pages de l'application avec React Router",
-            "3. Développer des éléments de l'interface d'un site web grâce à des composants React"
-        ]
+        ],
+        "url": "https://virginiegd.github.io/ohmyfood/",
+        "picture": "https://photos.onedrive.com/photo/DBB3028AC9604EE7!7491?view=all"
     }
+
+   
 ]
