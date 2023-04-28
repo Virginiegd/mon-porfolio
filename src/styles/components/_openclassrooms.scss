@@ -1,0 +1,46 @@
+// Card openclassrooms
+
+.card__openclassrooms {
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 25px 0px 25px 0px;
+    padding: 56px 50px 0px 50px;
+
+    .openclassrooms__project {
+        width: 29.9%;
+        margin-bottom: 40px;
+
+
+        a {
+            display: block;
+
+            img {
+                width: 100%;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                height: 550px;
+                filter: brightness(90%);
+                position: relative;
+            }
+
+
+            .title {
+                width: 100%;
+                height: 70px;
+                background-color: purple;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+                display: flex;
+                color: white;
+
+
+                h3 {
+                    text-align: center;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

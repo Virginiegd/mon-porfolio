@@ -14,17 +14,18 @@ function Openclassrooms() {
     }, []);
 
     return (
-    <div>
+    <div className='container'>
         <h1>Mes projets</h1>
         <h2>Openclassrooms</h2>
         <section>
             <div>
-                <ul>
+                <ul className='card__openclassrooms'>
                     {projectList.map((project) => (
-                        <li key={project.id}>
-                            <Link to={project.url}><img src={project.picture} alt={project.project} title='Cliquez ici pour voir le site'/></Link>
-                            <h3>{project.title}</h3>
-                            <p>{project.description}</p>
+                        <li className='openclassrooms__project' key={project.id}>
+                            <Link to={project.url}>
+                            <div className='title'><h3>{project.title}</h3></div>
+                            <img src={project.picture} alt={project.project} title='Cliquez ici pour voir le site'/>
+                            </Link>
                         </li>
                     )) }
                 </ul>

@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "title": "P2 : Transformez une maquette en site web avec HTML et CSS",
+        "title": "Booki",
         "description": "Démarrez sur HTML et CSS en intégrant la page Web de Booki, une plateforme de réservation de vacances.",
         "url": "https://virginiegd.github.io/booki/",
         "picture": "https://i.ibb.co/0jDqssc/Booki.png",
@@ -10,7 +10,7 @@
 
     {
         "id": "2",
-        "title": "P3 : Dynamisez une page web avec des animations CSS",
+        "title": "Ohmyfood",
         "description": "Implémentez la version mobile d'un site de foodtech avec des animations CSS.",
         "url": "https://virginiegd.github.io/ohmyfood/",
         "picture": "https://i.ibb.co/KVwCDgs/Ohmyfood.png",
@@ -19,10 +19,11 @@
 
     {
         "id": "3",
-        "title": "P4 : Optimisez une site web existant",
+        "title": "Agence La Panthère",
         "description": "Faites passer le site web de votre entreprise en tête des résultats Google grâce à la mise en place de bonnes pratiques SEO.",
         "url": "https://virginiegd.github.io/agencelapanthere/",
-        "project": "Agence La Panthère"
+        "project": "Agence La Panthère",
+        "picture": "https://i.ibb.co/8chPcf6/La-Panthere.png"
     }
 
    
