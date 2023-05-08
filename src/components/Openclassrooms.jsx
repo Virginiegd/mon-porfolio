@@ -22,9 +22,9 @@ function Openclassrooms() {
                 <ul className='card__openclassrooms'>
                     {projectList.map((project) => (
                         <li className='openclassrooms__project' key={project.id}>
-                            <Link to={project.url}>
+                            <Link to={project.url} target="_blank">
+                            <img src={project.picture} alt={project.project}  title='Cliquez ici pour voir le site'/>
                             <div className='title'><h3>{project.title}</h3></div>
-                            <img src={project.picture} alt={project.project} title='Cliquez ici pour voir le site'/>
                             </Link>
                         </li>
                     )) }

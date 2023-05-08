@@ -4,7 +4,7 @@
         "title": "Booki",
         "description": "Démarrez sur HTML et CSS en intégrant la page Web de Booki, une plateforme de réservation de vacances.",
         "url": "https://virginiegd.github.io/booki/",
-        "picture": "https://i.ibb.co/0jDqssc/Booki.png",
+        "picture": "https://i.ibb.co/pwbSRV9/Booki.png",
         "project": "Booki"
     },
 
@@ -13,7 +13,7 @@
         "title": "Ohmyfood",
         "description": "Implémentez la version mobile d'un site de foodtech avec des animations CSS.",
         "url": "https://virginiegd.github.io/ohmyfood/",
-        "picture": "https://i.ibb.co/KVwCDgs/Ohmyfood.png",
+        "picture": "https://i.ibb.co/vwCWSFB/Ohmyfood.png",
         "project": "Ohmyfood"
     },
 
@@ -23,7 +23,34 @@
         "description": "Faites passer le site web de votre entreprise en tête des résultats Google grâce à la mise en place de bonnes pratiques SEO.",
         "url": "https://virginiegd.github.io/agencelapanthere/",
         "project": "Agence La Panthère",
-        "picture": "https://i.ibb.co/8chPcf6/La-Panthere.png"
+        "picture": "https://i.ibb.co/YNqnfnj/La-Panthere.png"
+    },
+
+    {
+        "id": "4",
+        "title":  "Kanap",
+        "description": "Intégrez de manière dynamique les maquettes du site de Kanap avec Javascript. Vous utiliserez l'API pour récupérer les produits et leurs détails, et vous gérerez l'ajout des produits au panier.",
+        "url": "https://github.com/Virginiegd/Kanap",
+        "project": "Kanap",
+        "picture": "https://i.ibb.co/TtFns4f/Kanap.png"
+    },
+
+    {
+        "id": "5",
+        "title": "Piiquantes",
+        "description": "Créez le backend et l'API d'une application d'avis gastronomiques de sauces piquantes. Utilisez les technologies Node.js, Express et MongoDB pour construire la base de données NoSQL. Sécurisez les données grâce aux normes de l'OWASP.",
+        "url": "https://github.com/Virginiegd/backend",
+        "project": "Piiquantes",
+        "picture": "https://i.ibb.co/HYt2Vc8/Piiquantes.png"
+    },
+
+    {
+        "id": "6",
+        "title": "Kasa",
+        "description": "Implémentez le front end de Kasa, une application de location de logements. Mettez en place des composants avec React et les routes de l'application avec React Router.",
+        "url": "https://github.com/Virginiegd/kasa",
+        "project": "Kasa",
+        "picture":"https://i.ibb.co/MV9drLs/Kasa.png"
     }
 
    
