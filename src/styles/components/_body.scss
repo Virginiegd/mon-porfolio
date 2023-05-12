@@ -3,6 +3,21 @@
 }
 
 .info {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
+}
+
+
+.icones {
+    margin-top: 200px;
+.languages {
+    display: flex;
+    padding-left: 0px;
+    text-align: center;
+
+        img {
+            width: 30%;
+        }
+}
 }

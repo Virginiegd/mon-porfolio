@@ -4,6 +4,7 @@ function About() {
     return (
     <div>
         <Header />
+        <h1>Page en construction</h1>
     </div>
     )
 }
