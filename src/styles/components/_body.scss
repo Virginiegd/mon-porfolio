@@ -1,23 +1,45 @@
 .photo1 {
-    width: 15%;
+    width: 25%;
 }
 
 .info {
     margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
+    background-color: antiquewhite;
+
+    ul {
+        .txt {
+            font-size: 20px;
+        }
+        .txtitalic {
+            font-style: italic;
+            padding-top: 20px;
+        }
+        li {
+            .linkedin {
+                padding-right: 10px;
+                vertical-align: text-bottom;
+            }
+            
+        }
+    }
+
 }
 
 
 .icones {
     margin-top: 200px;
-.languages {
-    display: flex;
-    padding-left: 0px;
-    text-align: center;
+
+    .languages {
+        display: flex;
+        padding-left: 0px;
+        text-align: center;
 
         img {
             width: 30%;
         }
-}
+    }
 }

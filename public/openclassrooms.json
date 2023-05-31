@@ -48,7 +48,7 @@
         "id": "6",
         "title": "Kasa",
         "description": "Implémentez le front end de Kasa, une application de location de logements. Mettez en place des composants avec React et les routes de l'application avec React Router.",
-        "url": "https://github.com/Virginiegd/kasa",
+        "url": "https://kasa-apps.vercel.app/",
         "project": "Kasa",
         "picture":"https://i.ibb.co/MV9drLs/Kasa.png"
     }
