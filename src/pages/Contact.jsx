@@ -1,11 +1,12 @@
-import Header from "../components/Header";
+import Header from "../components/Header"
+import Info from "../components/Info"
 
 function Contact() {
     return (
-    <div>
-        <Header />
-        <h1>Page en construction</h1>
-    </div>
+        <div>
+            <Header />
+            <Info />
+        </div>
     )
 }
 

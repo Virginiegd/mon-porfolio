@@ -45,3 +45,20 @@
         }
     }
 }
+
+@media screen and (max-width:1090px) {
+    .card__openclassrooms {
+        .openclassrooms__project {
+            width: 40%;
+        }
+    }
+    
+}
+
+@media screen and (max-width:664px) {
+    .card__openclassrooms {
+        .openclassrooms__project {
+            width: 100%;
+        }
+    }
+}

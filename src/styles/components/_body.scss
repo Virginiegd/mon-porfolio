@@ -1,45 +1,143 @@
 .photo1 {
     width: 25%;
+  
+    object-fit: contain;
+    
 }
 
+.image-tape {
+  position: relative;
+  text-align: center;   
+  margin: 20px auto 10px;
+  
+  &:before,
+  &:after {
+    background: rgba(255,255,235,.6);
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    content: "";
+    display: block;
+    height: 30px;
+    position: absolute;
+    margin: auto;
+    width: 200px;
+  } 
+}
+  .image-tape--3 {
+    &:before {
+      left: -50px;
+      top: 18px;
+      transform: rotate(-45deg);
+    }
+  
+    &:after {
+      bottom: 10px;
+      right: -50px;
+      transform: rotate(-45deg);
+    }
+  }
+
 .info {
-    margin-top: 100px;
+    margin-top: 70px;
     padding-top: 30px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
     background-color: antiquewhite;
-
+    text-align: left;
+    h1 {
+        padding-left: 40px;
+    }
     ul {
         .txt {
             font-size: 20px;
         }
-        .txtitalic {
-            font-style: italic;
-            padding-top: 20px;
-        }
-        li {
-            .linkedin {
-                padding-right: 10px;
-                vertical-align: text-bottom;
-            }
-            
-        }
     }
-
 }
 
 
+
+
+
 .icones {
-    margin-top: 200px;
+    margin-top: 100px;
 
     .languages {
         display: flex;
         padding-left: 0px;
         text-align: center;
-
         img {
-            width: 30%;
+          width: 50%;
         }
     }
 }
+
+@media  screen and (max-width:976px) {
+  .image-tape {
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+
+
+  
+  .info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h1 {
+      padding-left: 0px;
+    }
+    ul {
+      padding: 0px;
+      .txt {
+        font-size: 20px ;
+      }
+    }
+  }
+
+  .icones {
+    .languages {
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        width: 25%;
+      }
+       
+    }
+  }
+
+
+}
+
+@media  screen and (max-width:664px) {
+  .photo1 {
+    text-align: center;
+  }
+
+
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h1 {
+      font-size: 30px;
+  
+    }
+    ul {
+      .txt {
+        font-size: 16px ;
+      }
+    }
+  }
+
+  .icones {
+    .languages {
+      li {
+        width: 30%;
+      }
+       
+    }
+  }
+  }
