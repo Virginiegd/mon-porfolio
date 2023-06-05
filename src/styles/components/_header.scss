@@ -1,12 +1,21 @@
 .navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     min-height: 55px;
     width: 100%;
-    background-color: black
+    background-color: #ffecff;
 
+}
+
+.header__logo {
+   display: block;
+   display: flex;
+    img {
+        width: 90px;
+        height: 80px;
+    }
 }
 
 .nav__ul {
@@ -15,7 +24,7 @@
 
 .nav__a {
     padding: 10px;
-    color: white;
+    color: black;
     
 }
 
@@ -29,6 +38,17 @@
 }
 
 @media  screen and (max-width:664px) {
+
+    .header__logo {
+        display: block;
+        display: flex;
+         img {
+             width: 70px;
+             height: 60px;
+         }
+     }
+
+
     .nav__ul {
         flex-direction: column;
         justify-content: center;
@@ -37,7 +57,7 @@
         bottom:0px;
         height: 100%;
         padding: 32px;
-        background-color: black;
+        background-color: #ffecff;
         align-items: center;
         visibility: hidden;
         z-index: 1;
@@ -53,7 +73,7 @@
     
         
     .nav__a {
-        color: white;
+        color: black;
         display: block;
         padding: 24px;
         font-size: 30px;
@@ -78,7 +98,7 @@
         height: 3px;
         position: relative;
         border-radius: 3px;
-        background: white;
+        background: black;
         z-index: 2;
     }
 

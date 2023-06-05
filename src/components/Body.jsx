@@ -24,6 +24,7 @@ function Body() {
                             <li className="txt">Permis B (véhiculée)</li>
                             <li className="txt">RQTH/OETH (poste aménagé)</li>
                         </ul>
+                        <a className="cv" href="./CV.pdf" target="_blank"> <input type="button" value="Télécharger mon CV"></input></a>
                     </div>
                 </div>
             </div>

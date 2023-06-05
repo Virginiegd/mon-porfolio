@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { useState} from "react"
+import logo from "../assets/Logo.png"
 
 function Header() {
     let activeStyle = {
@@ -16,6 +17,7 @@ function Header() {
         <header>
             <div className="container">
                     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
+                    <NavLink className="header__logo" to="/"><img src={logo} alt="logo"></img></NavLink>
                         <ul className="nav__ul ">
                             <li><NavLink className='nav__a' to="/" style={({ isActive }) =>
                                 isActive ? activeStyle : undefined} > Home </NavLink></li>
