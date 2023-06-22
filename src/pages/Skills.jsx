@@ -1,10 +1,11 @@
-import Header from "../components/Header";
+import Header from "../components/Header"
+import Outils from "../components/Outils"
 
 function Skills() {
     return (
     <div>
         <Header />
-        <h1>Page en construction</h1>
+        <Outils />
     </div>
     )
 }

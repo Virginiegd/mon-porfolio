@@ -1,0 +1,43 @@
+[
+    {
+        "id":"1",
+        "title":"HTML",
+        "rating":"4"
+    },
+
+    {
+        "id":"2",
+        "title":"CSS",
+        "rating":"4"
+    },
+    {
+        "id":"3",
+        "title":"SASS",
+        "rating":"4"
+    },
+    {
+        "id":"4",
+        "title":"BEM",
+        "rating":"4"
+    },
+    {
+        "id":"5",
+        "title":"Mobile first",
+        "rating":"4"
+    },
+    {
+        "id":"6",
+        "title":"Desktop first",
+        "rating":"4"
+    },
+    {
+        "id":"7",
+        "title":"SEO",
+        "rating":"4"
+    },
+    {
+        "id":"8",
+        "title":"Javascript",
+        "rating":"3"
+    }
+]
