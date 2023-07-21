@@ -1,0 +1,15 @@
+ul {
+   display: flex;
+   flex-wrap: wrap;
+   
+   h3 {
+    padding-right: 10px;
+   }
+
+    li {
+        display: flex;
+        padding-left: 20px;
+        align-items: center;
+        
+    }
+}

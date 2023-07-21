@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import Logiciels from "../components/Logiciels"
 import Outils from "../components/Outils"
 
 function Skills() {
@@ -6,6 +7,7 @@ function Skills() {
     <div>
         <Header />
         <Outils />
+        <Logiciels />
     </div>
     )
 }

@@ -15,6 +15,7 @@ function Outils(props) {
 
     return (
         <div className="container">
+                <h2>Outils</h2>
                 <ul>
                     {outilsList.map((outils) => (
                         <li key={outils.id}>
@@ -28,6 +29,3 @@ function Outils(props) {
 }
 
 export default Outils
-
-/*
- */
