@@ -1,9 +1,36 @@
-ul {
+.skillcontainer {
+    border: solid;
+    border-top-left-radius: 20px;
+    background-color: #800080;
+    box-shadow: 10px 5px 5px grey; 
+    border-bottom-right-radius: 20px;  
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+.skill{
+    font-size: 20px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+   
+}
+
+.competenceslist {
    display: flex;
    flex-wrap: wrap;
+   margin-top: 0px;
+   background-color: white;
+   margin-bottom: 0px;
+   border-bottom-right-radius: 20px;  
    
+
    h3 {
     padding-right: 10px;
+    font-size: 16px;
    }
 
     li {

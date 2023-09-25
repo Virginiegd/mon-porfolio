@@ -12,10 +12,17 @@
         width: 25%;
         margin-bottom: 40px;
         margin-right: 2px;
+        
+        :hover {
+            filter: opacity(50%);
+        }
 
 
         a {
             display: block;
+
+           
+           
 
             img {
                 object-fit: cover;
@@ -42,6 +49,8 @@
                     font-size: 18px;
                 }
             }
+
+            
         }
     }
 }

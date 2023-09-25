@@ -1,7 +1,7 @@
 import Rate from "../components/rate"
 import { useEffect, useState } from 'react'
 
-function Logiciels(props) {
+function Logiciels() {
     const [logicielsList, setLogicielsList] = useState([])
 
     useEffect(() => {
@@ -15,8 +15,9 @@ function Logiciels(props) {
 
     return (
         <div className="container">
-                <h2>Logiciels</h2>
-                <ul>
+            <div className="skillcontainer">
+                <h2 className="skill">Logiciels</h2>
+                <ul className="competenceslist">
                     {logicielsList.map((logiciels) => (
                         <li key={logiciels.id}>
                             <h3>{logiciels.title}</h3>
@@ -24,6 +25,7 @@ function Logiciels(props) {
                         </li>
                     )) }
                 </ul>
+            </div>
         </div>
     )
 }

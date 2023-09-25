@@ -1,7 +1,7 @@
 import Rate from "../components/rate"
 import { useEffect, useState } from 'react'
 
-function Outils(props) {
+function Outils() {
     const [outilsList, setOutilsList] = useState([])
 
     useEffect(() => {
@@ -15,16 +15,19 @@ function Outils(props) {
 
     return (
         <div className="container">
-                <h2>Outils</h2>
-                <ul>
-                    {outilsList.map((outils) => (
-                        <li key={outils.id}>
-                            <h3>{outils.title}</h3>
-                            <Rate rating={outils.rating}/>
-                        </li>
-                    )) }
-                </ul>
+            <div className="skillcontainer">
+            <h2 className="skill">Outils</h2>
+            <ul className="competenceslist">
+                {outilsList.map((outils) => (
+                    <li key={outils.id}>
+                        <h3>{outils.title}</h3>
+                        <Rate rating={outils.rating}/>
+                    </li>
+                )) }
+            </ul>
+            </div>
         </div>
+        
     )
 }
 

@@ -1,6 +1,8 @@
 import Header from "../components/Header"
 import Logiciels from "../components/Logiciels"
 import Outils from "../components/Outils"
+import Langues from "../components/Langues"
+import Savoiretre from "../components/Savoir_etre"
 
 function Skills() {
     return (
@@ -8,6 +10,8 @@ function Skills() {
         <Header />
         <Outils />
         <Logiciels />
+        <Langues />
+        <Savoiretre />
     </div>
     )
 }
