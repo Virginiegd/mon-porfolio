@@ -4,6 +4,8 @@ import Outils from "../components/Outils"
 import Langues from "../components/Langues"
 import Savoiretre from "../components/Savoir_etre"
 
+// Page des skills
+
 function Skills() {
     return (
     <div>

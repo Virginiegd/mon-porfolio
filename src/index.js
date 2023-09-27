@@ -9,6 +9,9 @@ import Portfolio from './pages/Portfolio'
 import Error404 from './pages/Error404'
 import Contact from './pages/Contact'
 
+// Création des routes
+// :-)
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(

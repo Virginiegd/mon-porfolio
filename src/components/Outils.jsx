@@ -1,4 +1,4 @@
-import Rate from "../components/rate"
+import Rate from "./Rate"
 import { useEffect, useState } from 'react'
 
 function Outils() {

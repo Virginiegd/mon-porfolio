@@ -1,7 +1,15 @@
+import Header from '../components/Header'
+import Error from '../components/Error'
+
+// Page d'erreur
+
 function Error404() {
     return (
         <div>
-            <h1>Cette page n'existe pas !</h1>
+            <Header/>
+            <main>
+                <Error/>
+            </main>    
         </div>
     )
 }

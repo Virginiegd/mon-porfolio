@@ -1,10 +1,15 @@
 import Header from "../components/Header";
+import Aboutme from "../components/Aboutme";
+
+// Page A propos
 
 function About() {
     return (
     <div>
         <Header />
-        <h1>Page en construction</h1>
+        <main>
+            <Aboutme/>
+        </main>
     </div>
     )
 }
